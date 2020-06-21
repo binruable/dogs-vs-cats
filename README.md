@@ -1,3 +1,3 @@
-# dogs-vs-cats
+# dogs-vs-cats An example of a beginner in deep learning.
 * preprocess + vgg15
-* An example of a beginner in deep learning.
+* Data download: https://www.kaggle.com/c/dogs-vs-cats/data?select=train.zip
