@@ -14,13 +14,12 @@
 
 ## Result
 
-|                    | running time(GPU:2080Ti) | pretrain |  accruay（train: 25000，test: 12500）   |
-| :----------------: | :----------------------: | :------: | :-------------------------------------: |
-| vgg16（epoch：20） |         1:17:57          |   True   | train:  98.98% ；test(logloss): 0.12360 |
-| vgg19（epoch：20） |                          |          |                                         |
-|                    |                          |          |                                         |
-|                    |                          |          |                                         |
+|              | epochs | running time(GPU:2080Ti) | pretrain |  accruay（train: 25000，test: 12500）   |
+| :----------: | :----: | :----------------------: | :------: | :-------------------------------------: |
+|    VGG16     |   20   |         1:17:57          |   True   | train:  98.98% ；test(logloss): 0.12360 |
+|    VGG19     |   20   |                          |   True   |                                         |
+|  ResNet152   |   20   |                          |          |                                         |
+| Inception-v4 |   20   |                          |          |                                         |
 
 * 训练评价指标使用LogLoss
-
 ![](./doc/111.png)
