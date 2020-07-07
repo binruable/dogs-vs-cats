@@ -22,4 +22,4 @@
 
 * 训练评价指标使用LogLoss
 
-![image-20200707102638593](C:\Users\zoubo123\AppData\Roaming\Typora\typora-user-images\image-20200707102638593.png)
+![111](C:\Users\zoubo123\Desktop\111.png)
