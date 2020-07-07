@@ -22,4 +22,4 @@
 
 * 训练评价指标使用LogLoss
 
-![111](C:\Users\zoubo123\Desktop\111.png)
+<p align="center"><img src="C:\Users\zoubo123\Desktop\111.png" width="70%" /><br><br></p>
