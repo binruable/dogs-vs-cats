@@ -10,6 +10,7 @@
 ## Data
 
 * download: https://www.kaggle.com/c/dogs-vs-cats/data?select=train.zip
+![](./doc/222.png)
 
 ## Result
 
