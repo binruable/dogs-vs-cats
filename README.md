@@ -22,4 +22,4 @@
 
 * 训练评价指标使用LogLoss
 
-$$\textrm{LogLoss} = - \frac{1}{n} \sum_{i=1}^n \left[ y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i)\right]$$
+![image-20200707102638593](C:\Users\zoubo123\AppData\Roaming\Typora\typora-user-images\image-20200707102638593.png)
