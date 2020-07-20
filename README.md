@@ -27,4 +27,5 @@
 ![](./doc/111.png)
 
 ## Run
+        cd 当前目录
         python googlenet.py
