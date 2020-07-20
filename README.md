@@ -27,5 +27,4 @@
 ![](./doc/111.png)
 
 ## Run
-* 下载数据，更换路径
-* Run $python googlenet.py
+        python googlenet.py
