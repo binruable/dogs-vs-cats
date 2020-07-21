@@ -44,6 +44,7 @@ torch.save(model, 'fine_tuning_20_epoch_dog_cat_googlenet.pkl')
 
 #测试
 model = torch.load('fine_tuning_20_epoch_dog_cat_googlenet.pkl')
+model.eval()
 model = model.cuda()
 path = r'C:\Users\caeit\Desktop\binru7_1\test1'
 test_data = DogCat(path,train=False,test=True)
