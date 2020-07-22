@@ -18,7 +18,7 @@ model = model.cuda()
 cost = torch.nn.CrossEntropyLoss().cuda()
 optimizer = torch.optim.SGD(model.parameters(),lr=1e-4,momentum=0.9)
 start = datetime.datetime.now()
-for i in range(2):
+for i in range(20):
         correct = 0.0
         total = 25000
         running_loss = 0.0
