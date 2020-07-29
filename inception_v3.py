@@ -43,10 +43,10 @@ for i in range(20):
             running_loss += loss.item()
         print('-----------Epoch:', i+1, ', one_epoch_loss:', running_loss, '-----------',',accuracy:%f'%(100*correct/25000))
 print(datetime.datetime.now()-start)
-torch.save(model, 'fine_tuning_20_epoch_dog_cat_resnet152.pkl')
+torch.save(model, 'fine_tuning_20_epoch_dog_cat_inception_v3.pkl')
 
 #测试
-model = torch.load('fine_tuning_20_epoch_dog_cat_resnet152.pkl')
+model = torch.load('fine_tuning_20_epoch_dog_cat_inception_v3.pkl')
 model.eval()
 model = model.cuda()
 path = r'C:\Users\caeit\Desktop\binru7_1\test1'
